@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37648" started-at="2017-12-16T07:10:50Z" finished-at="2017-12-16T07:11:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37648" started-at="2017-12-16T07:10:50Z" finished-at="2017-12-16T07:11:27Z">
+      <class name="testcases.TC006_DeleteLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="beforeSuite" is-config="true" duration-ms="1351" started-at="2017-12-16T12:40:48Z" finished-at="2017-12-16T12:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-12-16T12:40:50Z" finished-at="2017-12-16T12:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="setData" is-config="true" duration-ms="1" started-at="2017-12-16T12:40:50Z" finished-at="2017-12-16T12:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="beforeMethod" is-config="true" duration-ms="8911" started-at="2017-12-16T12:40:51Z" finished-at="2017-12-16T12:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="logInLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="logInLogOut" duration-ms="26262" started-at="2017-12-16T12:41:00Z" data-provider="fetchData" finished-at="2017-12-16T12:41:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No records to display]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:34)
+	at utils.Reporter.reportStep(Reporter.java:44)
+	at wdMethods.SeMethods.type(SeMethods.java:104)
+	at pages.FindLeadsPage.enterPhoneNumber(FindLeadsPage.java:53)
+	at testcases.TC006_DeleteLead.logInLogOut(TC006_DeleteLead.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="afterMethod" is-config="true" duration-ms="786" started-at="2017-12-16T12:41:27Z" finished-at="2017-12-16T12:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-16T12:41:27Z" finished-at="2017-12-16T12:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC006_DeleteLead@addb54]" name="afterSuite" is-config="true" duration-ms="988" started-at="2017-12-16T12:41:27Z" finished-at="2017-12-16T12:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC006_DeleteLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
